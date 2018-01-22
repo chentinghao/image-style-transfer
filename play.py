@@ -84,6 +84,6 @@ if __name__ == '__main__':
     IMAGE_PATH = ''
     OUTPUT_PATH = ''
     CHECKPOINT_DIR = ''
-    feed_forward(image_path, output_path, checkpoint_dir)
+    feed_forward(IMAGE_PATH, OUTPUT_PATH, CHECKPOINT_DIR)
 
 
