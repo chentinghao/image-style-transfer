@@ -9,7 +9,7 @@ The system overview is shown below. We will use this system to build our style t
 
 This code work is based on [Logan Engstrom](https://github.com/lengstrom/fast-style-transfer) and [Magnus Erik Hvass Pedersen](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/15_Style_Transfer.ipynb).
 
-![System%20overview%20%28Johnson%20et%20al%29.png](attachment:System%20overview%20%28Johnson%20et%20al%29.png)
+<img src="images/System overview (Johnson et al).png" />
 
 ## Import Libraries
 
@@ -192,10 +192,10 @@ Have fun!
 
 
 ```python
-INPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/fast-style-transfer/images/taipei101.jpg'
-OUTPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/fast-style-transfer/images/taipei_la_muse.jpg'
+INPUT_PATH = 'images/taipei101.jpg'
+OUTPUT_PATH = 'images/taipei_la_muse.jpg'
 CHECKPOINT_DIR = '/Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/la_muse.ckpt'
-STYLE_PATH = '/Volumes/ChenTingHao/Dropbox/Code/fast-style-transfer/images/la_muse.jpg' # Optional. Only for displaying it.
+STYLE_PATH = 'images/la_muse.jpg' # Optional. Only for displaying it.
 
 # Run the code.
 feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
@@ -205,15 +205,15 @@ feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
 
 
 
-![png](play_files/play_8_1.png)
+<img src="images/play_8_1.png" />
 
 
 
 ```python
-INPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/fast-style-transfer/images/taipei101.jpg'
-OUTPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/fast-style-transfer/images/taipei_rain_princess.jpg'
+INPUT_PATH = 'images/taipei101.jpg'
+OUTPUT_PATH = 'images/taipei_rain_princess.jpg'
 CHECKPOINT_DIR = '/Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/rain_princess.ckpt'
-STYLE_PATH = '/Volumes/ChenTingHao/Dropbox/Code/fast-style-transfer/images/rain_princess.jpg' # Optional. Only for displaying it.
+STYLE_PATH = 'images/rain_princess.jpg' # Optional. Only for displaying it.
 
 # Run the code.
 feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
@@ -223,15 +223,15 @@ feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
 
 
 
-![png](play_files/play_9_1.png)
+<img src="images/play_9_1.png" />
 
 
 
 ```python
-INPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei101.jpg'
-OUTPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei_scream.jpg'
+INPUT_PATH = 'images/taipei101.jpg'
+OUTPUT_PATH = 'images/taipei_scream.jpg'
 CHECKPOINT_DIR = '/Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/scream.ckpt'
-STYLE_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/scream.jpg' # Optional. Only for displaying it.
+STYLE_PATH = 'images/scream.jpg' # Optional. Only for displaying it.
 
 # Run the code.
 feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
@@ -241,37 +241,62 @@ feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
 
 
 
+<img src="images/play_10_1.png" />
+
+
+
 ```python
-INPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei101.jpg'
-OUTPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei_udnie.jpg'
+INPUT_PATH = 'images/taipei101.jpg'
+OUTPUT_PATH = 'images/taipei_udnie.jpg'
 CHECKPOINT_DIR = '/Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/udnie.ckpt'
-STYLE_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/udnie.jpg' # Optional. Only for displaying it.
+STYLE_PATH = 'images/udnie.jpg' # Optional. Only for displaying it.
 
 # Run the code.
 feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
 ```
 
+    INFO:tensorflow:Restoring parameters from /Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/udnie.ckpt
+
+
+
+<img src="images/play_11_1.png" />
+
+
 
 ```python
-INPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei101.jpg'
-OUTPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei_wave.jpg'
+INPUT_PATH = 'images/taipei101.jpg'
+OUTPUT_PATH = 'images/taipei_wave.jpg'
 CHECKPOINT_DIR = '/Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/wave.ckpt'
-STYLE_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/wave.jpg' # Optional. Only for displaying it.
+STYLE_PATH = 'images/wave.jpg' # Optional. Only for displaying it.
 
 # Run the code.
 feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
 ```
+
+    INFO:tensorflow:Restoring parameters from /Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/wave.ckpt
+
+
+
+<img src="images/play_12_1.png" />
+
 
 
 ```python
-INPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei101.jpg'
-OUTPUT_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/taipei_wreck.jpg'
+INPUT_PATH = 'images/taipei101.jpg'
+OUTPUT_PATH = 'images/taipei_wreck.jpg'
 CHECKPOINT_DIR = '/Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/wreck.ckpt'
-STYLE_PATH = '/Volumes/ChenTingHao/Dropbox/Code/image-style-transfer/images/wreck.jpg' # Optional. Only for displaying it.
+STYLE_PATH = 'images/wreck.jpg' # Optional. Only for displaying it.
 
 # Run the code.
 feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
 ```
+
+    INFO:tensorflow:Restoring parameters from /Volumes/ChenTingHao/Dataset/fast-style-transfer-checkpoints/wreck.ckpt
+
+
+
+<img src="images/play_13_1.png" />
+
 
 
 ```python
@@ -279,4 +304,13 @@ feed_forward(INPUT_PATH, OUTPUT_PATH, CHECKPOINT_DIR, STYLE_PATH)
 !jupyter nbconvert --to markdown play.ipynb
 !mv play.md README.md
 ```
-# image-style-transfer
+
+    [NbConvertApp] Converting notebook play.ipynb to markdown
+    [NbConvertApp] Support files will be in play_files/
+    [NbConvertApp] Making directory play_files
+    [NbConvertApp] Making directory play_files
+    [NbConvertApp] Making directory play_files
+    [NbConvertApp] Making directory play_files
+    [NbConvertApp] Making directory play_files
+    [NbConvertApp] Writing 10292 bytes to play.md
+

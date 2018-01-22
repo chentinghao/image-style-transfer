@@ -9,3 +9,6 @@ train2014
 
 # ignore pdf
 *.pdf
+
+# ignore checkpoint
+*.ckpt
