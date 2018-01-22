@@ -1,0 +1,11 @@
+# ignore vgg19 model
+*.mat
+
+# ignore vgg16 model
+*.tfmodel
+
+# ignore train set
+train2014
+
+# ignore pdf
+*.pdf
